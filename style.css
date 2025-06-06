@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a52e0;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #555;
+}
+
+ul#skillsList {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+  color: #222;
+}
+
+ul#skillsList li {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  border-left: 4px solid #6c63ff;
+  border-radius: 5px;
+  text-align: left;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+ul#skillsList li {
+  display: inline-block;
+  background-color: #e0e7ff;
+  color: #3f3f46;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
